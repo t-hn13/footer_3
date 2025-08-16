@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer</title>
+
+    <!-- Link CSS riêng -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link Font Awesome để dùng icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Import font Google (Roboto + Open Sans) -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <!-- Container bao toàn bộ phần footer -->
+    <div class="container">
+      <!-- Phần đầu footer: Logo + Subscription -->
+      <div class="header">
+        <!-- Logo -->
+        <img src="assets/logo.svg" alt="img-logo" class="img-logo" />
+
+        <!-- Khối subscription -->
+        <div class="subscription">
+          <div class="title">
+            <h1 class="sub">Subscription News</h1>
+            <!-- Tiêu đề đăng ký -->
+            <p class="text-sub">
+              Subscribe to the weekly newsletter for latest updates.
+            </p>
+          </div>
+
+          <!-- Form đăng ký nhận email -->
+          <form action="" class="inputtext">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email Address"
+            />
+            <input type="submit" value="SUBSCRIBE" />
+          </form>
+        </div>
+      </div>
+
+      <!-- Thân footer: chia thành nhiều cột -->
+      <div class="body">
+        <!-- Cột 1: About Restaurant -->
+        <div class="col col_25">
+          <h2 class="title-menu">About Restaurant</h2>
+          <p class="text-menu">
+            Quickly supply alternative strategic theme areas via-vis B2C
+            mindshare. Objectively repurpose stand-alone synergy via
+            user-centric architectures.
+          </p>
+
+          <!-- Danh sách link mạng xã hội -->
+          <div class="link-list">
+            <a href="#" class="link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="link"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="link"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="#" class="link"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Cột 2: Quick Links -->
+        <div class="col col_15">
+          <h2 class="title-menu">Quick Links</h2>
+          <ul class="menu-list">
+            <li class="list"><a href="#">About Us</a></li>
+            <li class="list"><a href="#">Menus</a></li>
+            <li class="list"><a href="#">Testimonials</a></li>
+            <li class="list"><a href="#">Blog</a></li>
+            <li class="list"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Cột 3: Our Menu -->
+        <div class="col col_15">
+          <h2 class="title-menu">Our Menu</h2>
+          <ul class="menu-list">
+            <li class="list"><a href="#">Burgers</a></li>
+            <li class="list"><a href="#">Desserts</a></li>
+            <li class="list"><a href="#">Pasta</a></li>
+            <li class="list"><a href="#">Vegetable</a></li>
+            <li class="list"><a href="#">Korean Food</a></li>
+          </ul>
+        </div>
+
+        <!-- Cột 4: Contact Now -->
+        <div class="col col_25">
+          <h2 class="title-menu">Contact Now</h2>
+          <ul class="menu-list">
+            <!-- Địa chỉ -->
+            <li class="list">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <a href="#">
+                  1403 Washington Ave, New Orleans, LA 70130, United States
+                </a>
+              </div>
+            </li>
+
+            <!-- Số điện thoại -->
+            <li class="list">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <a href="tel:+11234567890">(+1) 123 456 7890</a><br />
+                <a href="tel:+10987654321">(+1) 098 765 4321</a>
+              </div>
+            </li>
+
+            <!-- Email -->
+            <li class="list">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <a href="mailto:info@pizzer.com">info@pizzer.com</a><br />
+                <a href="mailto:info.example@pizzer.com"
+                  >info.example@pizzer.com</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phần cuối footer -->
+    <div class="container-footer">
+      <div class="footer">
+        <p class="copyright">
+          Copyright © 2023 Pizzer. All Rights Reserved by Angfuzsoft
+        </p>
+        <p class="privacy">Privacy Policy | Terms & Condition</p>
+      </div>
+    </div>
+  </body>
+</html>
